@@ -1,5 +1,5 @@
-# tomeSD_comfyUI
-tomeSD applied to ComfyUI stable diffusion UI
+# CheckpointTomeLoader
+tomeSD applied to ComfyUI stable diffusion UI using custom node
 
 # Installation
 
