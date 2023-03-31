@@ -17,7 +17,7 @@ Then set up the tomesd package with:
 python setup.py build develop
 ```
 
-Copy contents of ''ComfyUI_windows_portable\python_embeded\Lib\site-packages\tomesd\build\lib\tomesd''
+Copy contents of ``ComfyUI_windows_portable\python_embeded\Lib\site-packages\tomesd\build\lib\tomesd``
 to 
-''ComfyUI_windows_portable\python_embeded\Lib\site-packages\tomesd''
+``ComfyUI_windows_portable\python_embeded\Lib\site-packages\tomesd``
 There's probably a better way to install but hey it works
