@@ -1,5 +1,5 @@
 # CheckpointTomeLoader
-tomeSD applied to ComfyUI stable diffusion UI using custom node
+tomeSD(https://github.com/dbolya/tomesd) applied to ComfyUI stable diffusion UI using custom node
 
 # Installation
 
@@ -21,3 +21,8 @@ Copy contents of ``\ComfyUI_windows_portable\python_embeded\Lib\site-packages\to
 to 
 ``\ComfyUI_windows_portable\python_embeded\Lib\site-packages\tomesd``
 There's probably a better way to install but hey it works
+
+
+# Tip
+
+Adjust ratio. 0.5 is recommended. It's recommended that you do not increase the value above 0.5
