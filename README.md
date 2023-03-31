@@ -3,7 +3,7 @@ tomeSD applied to ComfyUI stable diffusion UI
 
 # Installation
 
-Place tomeloader.py in ``\ComfyUI_windows_portable/ComfyUI/custom_nodes``
+Place tomeloader.py in ``\ComfyUI_windows_portable\ComfyUI\custom_nodes``
 
 open cmd at ``\ComfyUI_windows_portable\python_embeded\Lib\site-packages``
 
