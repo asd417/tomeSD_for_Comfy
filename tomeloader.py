@@ -16,7 +16,7 @@ class CheckpointTomeLoader:
 
     def load_checkpoint(self, ckpt_name, ratio, output_vae=True, output_clip=True):
         ckpt_path = folder_paths.get_full_path("checkpoints", ckpt_name)
-        modelpatcher, clip, vae = comfy.sd.load_checkpoint_guess_config(ckpt_path, output_vae=True, output_clip=True, embedding_directory=folder_paths.get_folder_paths("embeddings"))
+        modelpatcher, clip, vae,  = comfy.sd.load_checkpoint_guess_config(ckpt_path, output_vae=True, output_clip=True, embedding_directory=folder_paths.get_folder_paths("embeddings"))
         
         print("Printing Tomesd module...")
         print(type(modelpatcher.model))
